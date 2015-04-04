@@ -6,11 +6,11 @@ public class FOnNotifyConnection implements StdCallCallback{
 	public void callback(int a,int b){
 		System.out.println(this.getClass().getName()+" , "+a+" , "+b);
 		if(a==100 && b==0) {
-			System.out.println("³ø»ù¦øªA¾¹µn¤J¦¨¥\!!");
+			System.out.println("å ±åƒ¹ä¼ºæœå™¨ç™»å…¥æˆåŠŸ!!");
 			rJavaTest r = rJavaTest.getInstance();
 			rJavaTest.setOK(true);
 		}
 		else
-			System.out.println("³ø»ù¤¤Â_!!");
+			System.out.println("å ±åƒ¹ä¸­æ–·!!");
 	}
 } 
